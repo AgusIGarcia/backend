@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend\\backend.csproj": {}
+    "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend\\backend.csproj": {
+    "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\garag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\backend\\obj\\",
+        "outputPath": "C:\\Users\\garag\\Documents\\Facultad\\Taller de redes\\TPG\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\garag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
